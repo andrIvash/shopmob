@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teestore</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/m_common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/maps.yandex.js"></script>
+</head>
+<body class="v1 w">
+		<div class="header clear">
+				<div class="header__top">
+						<div class="container">
+							<div class="header__top-menu">
+								<ul class="top-menu">
+									<li class="top-menu__elem"><a class="top-menu__link" href="/">Качество</a></li>
+									<li class="top-menu__elem"><a class="top-menu__link" href="/">Оплата и доставка</a></li>
+									<li class="top-menu__elem"><a class="top-menu__link" href="/">Отзывы</a></li>
+								</ul>
+							</div>
+							<div class="header__top-adv">
+								<div class="adv">Место для объявленией о скидке или акции</div>
+							</div>
+						</div>
+				</div>
+				<div class="actionbar clear">
+					<div class="mainbar clear">
+						<a href="#" id="nav" class="is" dv-type="arr">
+							<div></div>
+							<div></div>
+							<div></div>
+						</a>
+						<div class="window_name">
+							О магазине
+						</div>
+					</div>
+				</div>
+				<div id="searching">
+					<form>
+						<input type="text" placeholder="Поиск">
+						<input type="submit" value="">
+					</form>
+				</div>
+				<div class="header__content">
+						<div class="container">
+							<div class="search header__content-elem">
+								<input class="search__input" type="text">
+								<div class="search__sign"></div>
+							</div>
+							<div class="logo header__content-elem">
+								<img class="logo__img" src="img/logo/m_logo.png">
+							</div>
+							<ul class="actions header__content-elem">
+								<li class="actions__elem"><a class="actions__link" href="/">
+										<div class="action__img action__img_person"></div><span class="action__caption">Войти</span></a></li>
+								<li class="actions__elem"><a class="actions__link" href="/">
+										<div class="action__img action__img_pack"></div><span class="action__caption">Отследить доставку   </span></a></li>
+								<li class="actions__elem"><a class="actions__link" href="/">
+										<div class="action__img action__img_bag">
+											<div class="action__count"><span class="action__count-value">2</span></div>
+										</div><span class="action__caption">Корзина</span></a></li>
+							</ul>
+						</div>
+				</div>
+				<div class="tabnavigation loading">
+						<nav class="clear">
+							<a href="#">Скидки</a>
+							<a href="#" class="is">Футболки</a>
+							<a href="#">Майки</a>
+							<a href="#">Лонгсливы</a>
+							<a href="#">Регланы</a>
+							<a href="#">Еще</a>
+							<a href="#">Категории</a>
+						</nav>
+			
+							<!-- header content -->
+						<div class="header__select">
+								<div class="container">
+									<div class="select">
+										<ul class="top-menu">
+											<li class="top-menu__elem"><a class="top-menu__link active" href="/">Мужчинам</a></li>
+											<li class="top-menu__elem"><a class="top-menu__link" href="/">Женщинам</a></li>
+											<li class="top-menu__elem"><a class="top-menu__link" href="/">Детям</a></li>
+											<li class="top-menu__elem"><a class="top-menu__link" href="/">Для дома</a></li>
+										</ul>
+									</div>
+								</div>
+						</div>
+						<div class="header__menu">
+						<div class="container">
+							<ul class="menu">
+								<li class="menu__elem menu__elem_sales"><a class="menu__link" href="/">Скидки</a>
+									<div class="menu__sales">50%</div>
+								</li>
+								<li class="menu__elem"><a class="menu__link" href="/">
+										<div class="menu__img">
+												<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+										</div>
+										<div class="menu__data">
+											<div class="menu__elem-title">Футболки</div>
+											<div class="menu__elem-val">1167
+												<div class="menu__elem-svg">
+													<svg>
+														<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+													</svg>
+												</div>
+											</div>
+										</div></a></li>
+								<li class="menu__elem"><a class="menu__link" href="/">
+										<div class="menu__img">
+												<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+										</div>
+										<div class="menu__data">
+											<div class="menu__elem-title">Майки</div>
+											<div class="menu__elem-val">1167
+												<div class="menu__elem-svg">
+													<svg>
+														<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+													</svg>
+												</div>
+											</div>
+										</div></a></li>
+								<li class="menu__elem"><a class="menu__link" href="/">
+										<div class="menu__img">
+												<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+										</div>
+										<div class="menu__data">
+											<div class="menu__elem-title">Лонгсливы</div>
+											<div class="menu__elem-val">1167
+												<div class="menu__elem-svg">
+													<svg>
+														<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+													</svg>
+												</div>
+											</div>
+										</div></a></li>
+								<li class="menu__elem"><a class="menu__link" href="/">
+										<div class="menu__img">
+												<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+										</div>
+										<div class="menu__data">
+											<div class="menu__elem-title">Регланы</div>
+											<div class="menu__elem-val">1167
+												<div class="menu__elem-svg">
+													<svg>
+														<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+													</svg>
+												</div>
+											</div>
+										</div></a></li>
+								<li class="menu__elem menu__elem_more">
+									<a class="menu__link menu__link_submenu" href="/">Eще</a>
+									<div class="menu__title">
+										Все товары
+										<!--<ul class="innermenu menu__list">
+											<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
+											<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2  </a></li>
+										</ul> -->
+									</div>
+								</li>
+								<li class="menu__elem menu__elem_category">
+									<svg>
+										<use xlink:href="img/sprite/sprite.svg#list"></use>
+									</svg>
+									<a class="menu__link menu__link_submenu" href="/">Категории</a>
+									<div class="menu__title">
+										Все Категории
+										<!--<ul class="innermenu menu__list">
+											<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
+											<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+										</ul>-->
+									</div>
+								</li>
+							</ul>
+						</div>
+						</div>
+					<!-- header content end -->	
+				</div>
+			</div>
+
+	<div class="content about">
+		<div class="contents">
+				<div class="contents__elem">
+					<div class="d-menu">
+							<div class="d-menu__title">Информация</div>
+							<ul class="d-menu__list">
+								<li class="d-menu__elem"><a class="d-menu__link" href="/">Акции</a></li>
+								<li class="d-menu__elem"><a class="d-menu__link" href="/">Доставка и оплата</a></li>
+								<li class="d-menu__elem"><a class="d-menu__link " href="/">Качество</a></li>
+								<li class="d-menu__elem"><a class="d-menu__link" href="/">FAQ</a></li>
+								<li class="d-menu__elem"><a class="d-menu__link active" href="/">Контакты</a></li>
+								<li class="d-menu__elem"><a class="d-menu__link" href="/">Документы</a></li>
+							</ul>
+					</div>
+				</div>	
+				<div class="contents__elem">
+						<div class="title main__title">Контакты</div>
+						<div class="info_block info_block_tel">
+							<div>+7 (495) 974-39-75</div>
+							Работаем с 8:00 до 19:00
+						</div>
+						<div class="couple-info_block">
+							<div class="info_block">
+								<div>info@teestore.net</div>
+								Отвечаем на вопросы каждый вечер в 18:00
+							</div>
+							<div class="info_block">
+								<div>Реквизиты компании:</div>
+								ИП Богословский Андрей Сергеевич<br>ОГРН 313774633701222
+							</div>
+						</div>	
+						<div class="info_block">
+							<div>Мы в социальных сетях:</div>
+							<a href="#" class="vk_soc_bl"></a>
+							<a href="#" class="fb_soc_bl"></a>
+							<a href="#" class="inst_soc_bl"></a>
+						</div>
+						<div class="info_block location">
+							<div>Пункт Самовывоза</div>
+							г. Москва, ул. Бутырский Вал д.32 (м.Белорусская)
+							<span class="working">Работаем с 06:00 - 18:00 </span>
+						</div>
+						<div id="map"></div>
+						<a href="#" class="buy des faq">Перейти к покупкам</a>
+			</div>			
+	</div>
+
+	<div class="footer">
+			<div class="navigation">
+				<div class="links clear">
+					<div class="p2">
+						<div class="m_title">О магазине</div>
+						<ul>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Качество</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Документы</a></li>
+						</ul>
+					</div>
+					<div class="p2">
+						<div class="p2__item">
+							<div class="m_title">Личные данные</div>
+							<ul>
+								<li><a href="#">Профиль</a></li>
+								<li><a href="#">Мои заказы</a></li>
+								<li><a href="#">Войти</a></li>
+							</ul>
+						</div>
+						<div class="p2__item">
+							<div class="m_title">Художнику</div>
+							<ul>
+								<li><a href="#">Условия</a></li>
+								<li><a href="#">Личный кабинет</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="social">
+					<div class="m_title">Мы в социальных сетях</div>
+					<div class="social__list">
+						<a href="#" class="vk"></a>
+						<a href="#" class="fb"></a>
+						<a href="#" class="inst"></a>
+					</div>
+				</div>
+				<div class="dispatch">
+					<div class="title">Подписаться на рассылку</div>
+					<div class="text">Индивидуальная подборка для Вас, каждую<br>неделю по пятницам. Легко отписаться</div>
+					<form>
+						<input class="dispatch__text" type="text" placeholder="Ваш Е-mail">
+						<input class="dispatch__submit" type="submit" value="">
+					</form>
+				</div>
+				<div class="payment_methods">
+					<div class="m_title">Способы оплаты</div>
+					<div class="methods_line">
+						<div class="methods">
+							<div class="method"><img src="img/pay/q.png" alt=""></div>
+							<div class="method"><img src="img/pay/visa.png" alt=""></div>
+							<div class="method"><img src="img/pay/ya.png" alt=""></div>
+							<div class="method"><img src="img/pay/mc.png" alt=""></div>
+							<div class="method"><img src="img/pay/mf.png" alt=""></div>
+							<div class="method"><img src="img/pay/mts.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div id="bg"></div>
+
+	<script src="js/m_common.js"></script>
+	<script src="js/app.bundle.js"></script>
+</body>
+</html>

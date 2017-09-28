@@ -1,0 +1,148 @@
+/*
+ *  Vitaly Danylyk
+ *	web.vitaly@rambler.ru
+ */
+
+/*** RESET ***/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+	cursor: default;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.clear:after {
+	content: '';
+	width: 0;
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+a, a:active, a:visited {
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+
+
+
+/*************FONTS**************/
+@font-face {
+	src: url('../fonts/Circe Rounded Thin.woff');
+	font-family: circe;
+	font-weight: 100;
+}
+@font-face {
+	src: url('../fonts/Circe Rounded Extra Light.woff');
+	font-family: circe;
+	font-weight: 200;
+}
+@font-face {
+	src: url('../fonts/Circe Rounded Light.woff');
+	font-family: circe;
+	font-weight: 300;
+}
+@font-face {
+	src: url('../fonts/Circe Rounded.woff');
+	font-family: circe;
+	font-weight: 400;
+}
+@font-face {
+	src: url('../fonts/Circe Rounded Alt Bold.woff');
+	font-family: circe;
+	font-weight: 500;
+}
+@font-face {
+	src: url('../fonts/Circe Rounded Alt Bold.woff');
+	font-family: circe;
+	font-weight: 600;
+}
+@font-face {
+	src: url('../fonts/Circe Rounded Alt Extra Bold.woff');
+	font-family: circe;
+	font-weight: 800;
+}
+@font-face {
+	src: url('../fonts/Circe Rounded Alt Extra Bold.woff');
+	font-family: circe;
+	font-weight: 700;
+}
+@font-face {
+	src: url('../fonts/icons.ttf');
+	font-family: icon;
+}
+/*************FONTS**************/
+
+
+
+body {
+	background: #fff;
+	font-family: circe;
+	font-weight: 400;
+	color: #252525;
+}
+
+span.rub {
+	font-family: icon;
+}
+
+input, textarea, select, option, button {
+	font-family: circe;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+}
+
+input:placeholder, textarea:placeholder, select:placeholder, option:placeholder {color: #9596aa;}
+input:-o-placeholder, textarea:-o-placeholder, select:-o-placeholder, option:-o-placeholder {color: #9596aa;}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder, select:-ms-input-placeholder, option:-ms-input-placeholder {color: #9596aa;}
+input::-ms-input-placeholder, textarea:-ms-input-placeholder, select:-ms-input-placeholder, option:-ms-input-placeholder {color: #9596aa;}
+input:-moz-placeholder, textarea:-moz-placeholder, select:-moz-placeholder, option:-moz-placeholder {color: #9596aa;}
+input::-moz-placeholder, textarea::-moz-placeholder, select::-moz-placeholder, option::-moz-placeholder {color: #9596aa;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, select::-webkit-input-placeholder, option::-webkit-input-placeholder {color: #9596aa;}

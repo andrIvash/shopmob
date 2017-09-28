@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teestore</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="../includes/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../includes/css/m_common.css">
+	<script src="../includes/js/jquery.min.js"></script>
+</head>
+<body class="w v1">
+	<div class="header clear">
+		<div class="actionbar clear">
+			<div class="mainbar clear">
+				<a href="#" id="nav" class="is" dv-type="arr">
+					<div></div>
+					<div></div>
+					<div></div>
+				</a>
+				<div class="window_info">
+					<div>Оформление заказа</div>
+					<span class="goods-count">2</span> товара на <span class="goods-price">2380</span> <span class="rub">R</span>
+				</div>
+			</div>
+			<div class="userbar clear">
+				<a href="#" class="hide des w">Посмотреть<br>товары</a>
+			</div>
+		</div>
+		<div class="history loading">
+			<nav class="clear">
+				<a href="#">Корзина</a>
+				<a href="#">Контактные данные</a>
+				<a href="#">Доставка и оплата</a>
+			</nav>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="p_title">Доставка и оплата</div>
+		<form class="delivery" method="POST">
+			<div class="l">
+				<div class="i_title">Город</div>
+				<div class="smart_input">
+					<div class="flags">
+						<div class="chosen"><img src="../includes/img/flags/ru.jpg" alt=""></div>
+						<div class="to_choose">
+							<div class="flag is" dv-data="ru"><img src="../includes/img/flags/ru.jpg" alt=""></div>
+							<div class="flag" dv-data="ua"><img src="../includes/img/flags/ua.jpg" alt=""></div>
+							<div class="flag" dv-data="en"><img src="../includes/img/flags/en.jpg" alt=""></div>
+							<div class="flag" dv-data="usa"><img src="../includes/img/flags/usa.jpg" alt=""></div>
+						</div>
+					</div>
+					<input type="text" value="Москва" placeholder="Город">
+					<div class="reset"></div>
+				</div>
+			</div>
+			<div class="l ">
+				<div class="l_title">Способы доставки</div>
+				<div class="buttons delivery_type_line">
+					<div class="wrap">
+						<input type="radio" id="we" checked="" name="delivery">
+						<label for="we">
+							<div class="title">До двери<br>в Москве</div>
+							<div class="price"><span class="price-val">209</span> <span class="rub">R</span></div>
+							<div class="info">1-2 дня</div>
+						</label>
+						<input type="radio" id="you" name="delivery">
+						<label for="you">
+							<div class="title">Самовывоз<br>в Москве</div>
+							<div class="price w"><span class="price-val">0</span> <span class="rub">R</span></div>
+							<div class="info">ул. Бутырский Вал д.32 </div>
+						</label>
+						<input type="radio" id="you2" name="delivery">
+						<label for="you2">
+							<div class="title">Самовывоз<br>в Москве</div>
+							<div class="price w"><span class="price-val">0</span> <span class="rub">R</span></div>
+							<div class="info">ул. Бутырский Вал д.32 </div>
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="l">
+				<input type="text" placeholder="Адрес доставки">
+			</div>
+			<div class="text">Произведем за 48 часов (21 июня).<br>Доставим за 1-2 дня (26 июня-26 июня).</div>
+			<div class="l">
+				<div class="l_title">Способ оплаты</div>
+				<div class="buttons b_pay">
+					<div class="wrap">
+						<input type="radio" checked="" id="mcv" name="pay">
+						<label for="mcv">
+							Банковская карта
+						</label>
+						<input type="radio" id="em" name="pay">
+						<label for="em">
+							Электронные деньги
+						</label>
+						<input type="radio" id="t" name="pay">
+						<label for="t">
+							Терминал
+						</label>
+						<input type="radio" id="t2" name="pay">
+						<label for="t2">
+							Терминал
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="result">
+				Товары: <span class="goods-price">990</span> <span class="rub">R</span> + Доставка: 308 <span class="rub">R</span>
+				<div>Итого: <span class="res-price">1298</span> <span class="rub">R</span></div>
+			</div>
+			<input type="submit" class="des" value="Оплатить заказ">
+			<div class="l l_rules">
+				<input type="checkbox" id="rules" name="">
+				<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
+			</div>
+		</form>
+	</div>
+
+	<div id="bg"></div>
+
+	<script src="../includes/js/m_common.js"></script>
+</body>
+</html>

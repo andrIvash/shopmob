@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teestore</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/m_common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+</head>
+<body class="w v1">
+	<div class="header clear">
+		<div class="actionbar clear">
+			<div class="mainbar clear">
+				<a href="#" id="nav" class="is" dv-type="arr">
+					<div></div>
+					<div></div>
+					<div></div>
+				</a>
+				<div class="window_info">
+					<div>Оформление заказа</div>
+					<span class="goods-count"></span> товара на <span class="goods-price">2380</span> <span class="rub">R</span>
+				</div>
+			</div>
+			<div class="userbar clear">
+				<a href="#" class="hide des w">Посмотреть<br>товары</a>
+			</div>
+		</div>
+		<div class="history loading">
+			<nav class="clear">
+				<a href="#">Корзина</a>
+				<a href="#">Контактные данные</a>
+				<a href="#">Доставка и оплата</a>
+			</nav>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="p_title">Доставка и оплата</div>
+		<form class="delivery" method="POST">
+			<div class="l">
+				<div class="i_title">Город</div>
+				<div class="smart_input">
+					<div class="flags">
+						<div class="chosen"><img src="img/flags/ru.jpg" alt=""></div>
+						<div class="to_choose">
+							<div class="flag is" dv-data="ru"><img src="img/flags/ru.jpg" alt=""></div>
+							<div class="flag" dv-data="ua"><img src="img/flags/ua.jpg" alt=""></div>
+							<div class="flag" dv-data="en"><img src="img/flags/en.jpg" alt=""></div>
+							<div class="flag" dv-data="usa"><img src="img/flags/usa.jpg" alt=""></div>
+						</div>
+					</div>
+					<input type="text" value="Москва" placeholder="Город">
+					<div class="reset"></div>
+				</div>
+			</div>
+			<div class="l ">
+				<div class="l_title">Способы доставки</div>
+				<div class="buttons delivery_type_line">
+					<div class="wrap">
+						<input type="radio" id="r_post" checked="" name="r_post">
+						<label for="r_post">
+							<div class="title">Почтой Росии<br>доставка по РФ</div>
+							<div class="price"><span class="price-val">299</span> <span class="rub">R</span></div>
+							<div class="info">4-12 дня</div>
+						</label>
+						<div class="empty"></div>
+					</div>
+				</div>
+			</div>
+			<div class="l">
+				<input type="text" placeholder="Адрес доставки">
+			</div>
+			<div class="text">Произведем за 48 часов (21 июня).<br>Доставим за 1-2 дня (26 июня-26 июня).</div>
+			<div class="l">
+				<div class="l_title">Способ оплаты</div>
+				<div class="buttons b_pay">
+					<div class="wrap">
+						<input type="radio" checked="" id="mcv" name="pay">
+						<label for="mcv">
+							Банковская карта
+						</label>
+						<input type="radio" id="em" name="pay">
+						<label for="em">
+							Электронные деньги
+						</label>
+						<input type="radio" id="t" name="pay">
+						<label for="t">
+							Терминал
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="result">
+				Товары: <span class="goods-price">990</span> <span class="rub">R</span> + Доставка: 308 <span class="rub">R</span>
+				<div>Итого: <span class="res-price">1298</span> <span class="rub">R</span></div>
+			</div>
+			<input type="submit" class="des" value="Оплатить заказ">
+			<div class="l l_rules">
+				<input type="checkbox" id="rules" name="">
+				<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
+			</div>
+		</form>
+	</div>
+	<div class="footer">
+			<div class="navigation">
+				<div class="links clear">
+					<div class="p2">
+						<div class="m_title">О магазине</div>
+						<ul>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Качество</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Документы</a></li>
+						</ul>
+					</div>
+					<div class="p2">
+						<div class="p2__item">
+							<div class="m_title">Личные данные</div>
+							<ul>
+								<li><a href="#">Профиль</a></li>
+								<li><a href="#">Мои заказы</a></li>
+								<li><a href="#">Войти</a></li>
+							</ul>
+						</div>
+						<div class="p2__item">
+							<div class="m_title">Художнику</div>
+							<ul>
+								<li><a href="#">Условия</a></li>
+								<li><a href="#">Личный кабинет</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="social">
+					<div class="m_title">Мы в социальных сетях</div>
+					<div class="social__list">
+						<a href="#" class="vk"></a>
+						<a href="#" class="fb"></a>
+						<a href="#" class="inst"></a>
+					</div>
+				</div>
+				<div class="dispatch">
+					<div class="title">Подписаться на рассылку</div>
+					<div class="text">Индивидуальная подборка для Вас, каждую<br>неделю по пятницам. Легко отписаться</div>
+					<form>
+						<input class="dispatch__text" type="text" placeholder="Ваш Е-mail">
+						<input class="dispatch__submit" type="submit" value="">
+					</form>
+				</div>
+				<div class="payment_methods">
+					<div class="m_title">Способы оплаты</div>
+					<div class="methods_line">
+						<div class="methods">
+							<div class="method"><img src="img/pay/q.png" alt=""></div>
+							<div class="method"><img src="img/pay/visa.png" alt=""></div>
+							<div class="method"><img src="img/pay/ya.png" alt=""></div>
+							<div class="method"><img src="img/pay/mc.png" alt=""></div>
+							<div class="method"><img src="img/pay/mf.png" alt=""></div>
+							<div class="method"><img src="img/pay/mts.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div id="bg"></div>
+
+	<script src="js/m_common.js"></script>
+	<script src="js/app.bundle.js"></script>
+</body>
+</html>

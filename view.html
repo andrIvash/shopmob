@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teestore</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/m_common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/slick.min.js"></script>
+</head>
+<body class="w">
+		<div class="header clear">
+				<!-- desktop -->
+				<div class="header__top">
+					<div class="container">
+						<div class="header__top-menu">
+							<ul class="top-menu">
+								<li class="top-menu__elem"><a class="top-menu__link" href="/">Качество</a></li>
+								<li class="top-menu__elem"><a class="top-menu__link" href="/">Оплата и доставка</a></li>
+								<li class="top-menu__elem"><a class="top-menu__link" href="/">Отзывы</a></li>
+							</ul>
+						</div>
+						<div class="header__top-adv">
+							<div class="adv">Место для объявленией о скидке или акции</div>
+						</div>
+					</div>
+				</div>
+				<!-- end desktop -->	
+				<div class="actionbar clear">
+						<div class="mainbar clear">
+							<a href="#" id="nav" class="is" dv-type="arr">
+								<div></div>
+								<div></div>
+								<div></div>
+							</a>
+						</div>
+						<div class="userbar clear">
+							<div id="cart"><div>2</div></div>
+							<div id="search">
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+				</div>
+				<div id="searching">
+					<form>
+						<input type="text" placeholder="Поиск">
+						<input type="submit" value="">
+					</form>
+				</div>
+				<div class="header__content">
+						<div class="container">
+							<div class="search header__content-elem">
+								<input class="search__input" type="text">
+								<div class="search__sign"></div>
+							</div>
+							<div class="logo header__content-elem">
+								<img class="logo__img" src="img/logo/m_logo.png">
+							</div>
+							<ul class="actions header__content-elem">
+								<li class="actions__elem"><a class="actions__link" href="/">
+										<div class="action__img action__img_person"></div><span class="action__caption">Войти</span></a></li>
+								<li class="actions__elem"><a class="actions__link" href="/">
+										<div class="action__img action__img_pack"></div><span class="action__caption">Отследить доставку   </span></a></li>
+								<li class="actions__elem"><a class="actions__link" href="/">
+										<div class="action__img action__img_bag">
+											<div class="action__count"><span class="action__count-value">2</span></div>
+										</div><span class="action__caption">Корзина</span></a></li>
+							</ul>
+						</div>
+				</div>
+				<div class="tabnavigation loading">
+					<nav class="clear">
+						<a href="#">Акции</a>
+						<a href="#">Доставка</a>
+						<a href="#" class="is">Качество и отзывы</a>
+						<a href="#">FAQ</a>
+						<a href="#">Контакты</a>
+						<a href="#">Документы</a>
+					</nav>
+					<div class="header__select">
+							<div class="container">
+								<div class="select">
+									<ul class="top-menu">
+										<li class="top-menu__elem"><a class="top-menu__link active" href="/">Мужчинам</a></li>
+										<li class="top-menu__elem"><a class="top-menu__link" href="/">Женщинам</a></li>
+										<li class="top-menu__elem"><a class="top-menu__link" href="/">Детям</a></li>
+										<li class="top-menu__elem"><a class="top-menu__link" href="/">Для дома</a></li>
+									</ul>
+								</div>
+							</div>
+					</div>
+					<div class="header__menu">
+					<div class="container">
+						<ul class="menu">
+							<li class="menu__elem menu__elem_sales"><a class="menu__link" href="/">Скидки</a>
+								<div class="menu__sales">50%</div>
+							</li>
+							<li class="menu__elem"><a class="menu__link" href="/">
+									<div class="menu__img">
+											<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+									</div>
+									<div class="menu__data">
+										<div class="menu__elem-title">Футболки</div>
+										<div class="menu__elem-val">1167
+											<div class="menu__elem-svg">
+												<svg>
+													<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+												</svg>
+											</div>
+										</div>
+									</div></a></li>
+							<li class="menu__elem"><a class="menu__link" href="/">
+									<div class="menu__img">
+											<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+									</div>
+									<div class="menu__data">
+										<div class="menu__elem-title">Майки</div>
+										<div class="menu__elem-val">1167
+											<div class="menu__elem-svg">
+												<svg>
+													<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+												</svg>
+											</div>
+										</div>
+									</div></a></li>
+							<li class="menu__elem"><a class="menu__link" href="/">
+									<div class="menu__img">
+											<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+									</div>
+									<div class="menu__data">
+										<div class="menu__elem-title">Лонгсливы</div>
+										<div class="menu__elem-val">1167
+											<div class="menu__elem-svg">
+												<svg>
+													<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+												</svg>
+											</div>
+										</div>
+									</div></a></li>
+							<li class="menu__elem"><a class="menu__link" href="/">
+									<div class="menu__img">
+											<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+									</div>
+									<div class="menu__data">
+										<div class="menu__elem-title">Регланы</div>
+										<div class="menu__elem-val">1167
+											<div class="menu__elem-svg">
+												<svg>
+													<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+												</svg>
+											</div>
+										</div>
+									</div></a></li>
+							<li class="menu__elem menu__elem_more">
+								<a class="menu__link menu__link_submenu" href="/">Eще</a>
+								<div class="menu__title">
+									Все товары
+									<!--<ul class="innermenu menu__list">
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2  </a></li>
+									</ul> -->
+								</div>
+							</li>
+							<li class="menu__elem menu__elem_category">
+								<svg>
+									<use xlink:href="img/sprite/sprite.svg#list"></use>
+								</svg>
+								<a class="menu__link menu__link_submenu" href="/">Категории</a>
+								<div class="menu__title">
+									Все Категории
+									<!--<ul class="innermenu menu__list">
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+									</ul>-->
+								</div>
+							</li>
+						</ul>
+					</div>
+					</div>
+				</div>
+		</div>
+	<div id="menu">
+		<div class="cart clear">
+			<div class="cart_icon"><div>2</div></div>
+			<div class="info">
+				<div>Корзина</div>
+				<span class="goods-count">2</span> товара на <span class="goods-price">1490</span> <span class="rub">R</span>
+			</div>
+		</div>
+		<div class="user_view">
+			<div class="info">
+				<img src="uploads/default.png" alt="">
+				<div class="name">Артем Ермолаев</div>
+				<div class="email">artemech@gmail.com</div>
+			</div>
+			<div class="control">
+				<ul>
+					<li><a href="#">Мои заказы</a></li>
+					<li><a href="#">Настроки профиля</a></li>
+					<li><a href="#">Выйти</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="menu_content">
+			<div class="tabs clear">
+				<a href="#" class="is" dv-tag="men">Мужчинам</a>
+				<a href="#" dv-tag="women">Женщинам</a>
+			</div>
+			<div class="windows">
+				<div class="window is" dv-tag="men">
+					<ul class="main">
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_4.png');"></div>Футболки</a></li>
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_5.png');"></div>Майки</a></li>
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_6.png');"></div>Лонгсливы</a></li>
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_7.png');"></div>Регланы</a></li>
+						<li class="sub">
+							<a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Еще</a>
+							<ul>
+								<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 5</a></li>
+								<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 6</a></li>
+								<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 7</a></li>
+								<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Подушки</a></li>
+								<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Шлепки</a></li>
+							</ul>
+						</li>
+						<li class="go">
+							<a href="#"><div class="ico" style="background-image: url('img/m_ico_9.png');"></div>Категории</a>
+
+							<ul>
+								<li class="sub">
+									<a href="#">Животные</a>
+									<ul>
+										<li><a href="#">Животные 1</a></li>
+										<li><a href="#">Животные 2</a></li>
+										<li><a href="#">Животные 3</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Фильмы</a></li>
+								<li><a href="#">Гоблины</a></li>
+								<li class="sub">
+									<a href="#">Зомби</a>
+									<ul>
+										<li><a href="#">Зомби 1</a></li>
+										<li><a href="#">Зомби 2</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Животные</a></li>
+								<li class="sub">
+									<a href="#">Фильмы</a>
+									<ul>
+										<li><a href="#">Фильмы 1</a></li>
+										<li><a href="#">Фильмы 2</a></li>
+										<li><a href="#">Фильмы 3</a></li>
+										<li><a href="#">Фильмы 4</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Гоблины</a></li>
+								<li><a href="#">Зомби</a></li>
+								<li><a href="#">Животные</a></li>
+								<li><a href="#">Фильмы</a></li>
+								<li><a href="#">Гоблины</a></li>
+								<li><a href="#">Зомби</a></li>
+							</ul>
+						</li>
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_10.png');"></div>Войти / Регистрация</a></li>
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_11.png');"></div>Отследить доставку</a></li>
+					</ul>
+				</div>
+				<div class="window" dv-tag="women">
+					<ul class="main">
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_4.png');"></div>Футболки Ж</a></li>
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_5.png');"></div>Майки Ж</a></li>
+						<li class="sub">
+							<a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Еще</a>
+							<ul>
+								<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 5 Ж</a></li>
+								<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 6 Ж</a></li>
+							</ul>
+						</li>
+						<li class="go">
+							<a href="#"><div class="ico" style="background-image: url('img/m_ico_9.png');"></div>Категории Ж</a>
+
+							<ul>
+								<li><a href="#">Фильмы Ж</a></li>
+								<li><a href="#">Гоблины Ж</a></li>
+								<li class="sub">
+									<a href="#">Зомби Ж</a>
+									<ul>
+										<li><a href="#">Зомби 1 Ж</a></li>
+										<li><a href="#">Зомби 2 Ж</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Гоблины Ж</a></li>
+								<li><a href="#">Зомби Ж</a></li>
+							</ul>
+						</li>
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_10.png');"></div>Войти / Регистрация</a></li>
+						<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_11.png');"></div>Отследить доставку</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="main_items">
+				<div class="box">
+					<div class="m_title">О магазине</div>
+					<ul>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Качество</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Документы</a></li>
+					</ul>
+				</div>
+				<div class="box">
+					<div class="m_title">Художнику</div>
+					<ul>
+						<li><a href="#">Условия</a></li>
+						<li><a href="#">Личный кабинет</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="content good view">
+			<div class="contents">
+					<div class="contents__elem">
+							<div class="view_good">
+								<img src="uploads/t-shirt.jpg" dv-data="t-shirt.jpg" alt="">
+								<a href="#" class="back" dv-data="t-shirt_back.jpg" style="background-image: url('uploads/t-shirt_back.jpg');"></a>
+							</div>
+							<div class="good_types">
+								<div class="tabs clear">
+									<a href="#" class="is" dv-tag="men">Мужчинам</a>
+									<a href="#" dv-tag="women">Женщинам</a>
+								</div>
+								<div class="windows">
+									<div class="window is" dv-tag="men">
+										<div class="types_line">
+											<div class="types">
+												<a href="#" class="type is">
+													<img src="uploads/t-shirt.jpg" alt="">
+													<div class="title">Футболка</div>
+												</a>
+												<a href="#" class="type">
+													<img src="uploads/maika.jpg" alt="">
+													<div class="title">Майка</div>
+												</a>
+												<a href="#" class="type">
+													<img src="uploads/lingsliv.jpg" alt="">
+													<div class="title">Лонгслив</div>
+												</a>
+												<a href="#" class="type">
+													<img src="uploads/reglan.jpg" alt="">
+													<div class="title">Реглан</div>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="window" dv-tag="women">
+										<div class="types_line">
+											<div class="types">
+												<a href="#" class="type is">
+													<img src="uploads/t-shirt.jpg" alt="">
+													<div class="title">Футболка Ж</div>
+												</a>
+												<a href="#" class="type">
+													<img src="uploads/maika.jpg" alt="">
+													<div class="title">Майка Ж</div>
+												</a>
+												<a href="#" class="type">
+													<img src="uploads/lingsliv.jpg" alt="">
+													<div class="title">Лонгслив Ж</div>
+												</a>
+												<a href="#" class="type">
+													<img src="uploads/reglan.jpg" alt="">
+													<div class="title">Реглан Ж</div>
+												</a>
+												<a href="#" class="type">
+													<img src="uploads/maika.jpg" alt="">
+													<div class="title">Майка Ж</div>
+												</a>
+												<a href="#" class="type">
+													<img src="uploads/t-shirt.jpg" alt="">
+													<div class="title">Футболка Ж</div>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>		
+					<div class="contents__elem">
+						<div class="main">
+							<div class="info">
+								<div class="name">Кот-бомба летит</div>
+								<ul class="g_tags">
+									<li><a href="#">космос</a></li>
+									<li><a href="#">кошка</a></li>
+								</ul>
+								<div class="artist"><a href="#">От Name45</a></div>
+							</div>
+							<div class="ldl">
+								<a href="#" class="like"></a>
+								<div>Оцените товар</div>
+								<a href="#" class="dislike"></a>
+							</div>
+						</div>
+						<div class="good_sizes">
+							<div class="b_title">Размер</div>
+							<div class="sizes_line">
+								<center>
+									<div class="sizes">
+										<div class="chooser"></div>
+										<div class="size">
+											<div>XS</div>
+											44
+										</div>
+										<div class="size">
+											<div>S</div>
+											46
+										</div>
+										<div class="size">
+											<div>M</div>
+											48
+										</div>
+										<div class="size is">
+											<div>L</div>
+											50
+										</div>
+										<div class="size">
+											<div>XL</div>
+											52
+										</div>
+										<div class="size">
+											<div>XXL</div>
+											54
+										</div>
+										<div class="size">
+											<div>XXXL</div>
+											56
+										</div>
+									</div>
+								</center>
+							</div>
+							<a href="#" class="simple_text">Узнать свой размер</a>
+						</div>
+						<div class="good_price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+						<a href="#" class="buy des">Купить</a>
+						<div class="g_info">
+							<div class="tabs clear">
+								<a href="#" class="is" dv-tag="info">Информация</a>
+								<a href="#" dv-tag="garant">Гарантии</a>
+							</div>
+							<div class="windows">
+								<div class="window is" dv-tag="info">
+									<div>Cделано в России</div>
+									<ul>
+										<li><div>Качество:</div> Экологичная ULTRA HD печать</li>
+										<li><div>Принт от стирки:</div> никогда не стирается</li>
+										<li><div>Ткань:</div> Интерлок, 135-140 гр/кв.м Умная ткань</li>
+										<li><div>Состав:</div> 100% микрофибра</li>
+										<li><div>Сезон:</div> Весна-Лето</li>
+										<li><div>Модель на фото:</div> 50 размер, 182 рост</li>
+										<li><div>Производство футболки:</div> 48 часов</li>
+									</ul>
+								</div>
+								<div class="window" dv-tag="garant">
+									<div>Cделано в России GARANT</div>
+									<ul>
+										<li><div>Качество:</div> Экологичная ULTRA HD GARANT</li>
+										<li><div>Принт от стирки:</div> никогда не GARANT</li>
+										<li><div>Ткань:</div> Интерлок, 135-140 гр/кв.м Умная GARANT</li>
+										<li><div>Состав:</div> 100% GARANT</li>
+										<li><div>Сезон:</div> Весна-GARANT</li>
+										<li><div>Модель на фото:</div> 50 размер, 182 GARANT</li>
+										<li><div>Производство футболки:</div> 48 GARANT</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>			
+		<div class="advantages">
+			<div class="s_title">Преимущества</div>
+			<div class="slider">
+				<div class="slide">
+					<div class="img" style="background: #26bfff;"></div>
+					<div class="title">Лучшая ткань</div>
+					<div class="text">Приятная на ощупь, без аллегргии. Не выцветает 
+и не выстирывается 5 лет (если стирать каждую неделю).</div>
+				</div>
+				<div class="slide">
+					<div class="img" style="background: #26bfff;"></div>
+					<div class="title">Лучшая ткань 2</div>
+					<div class="text">Приятная на ощупь, без аллегргии. Не выцветает 
+и не выстирывается 5 лет (если стирать каждую неделю) 2.</div>
+				</div>
+				<div class="slide">
+					<div class="img" style="background: #26bfff;"></div>
+					<div class="title">Лучшая ткань 3</div>
+					<div class="text">Приятная на ощупь, без аллегргии. Не выцветает 
+и не выстирывается 5 лет (если стирать каждую неделю) 2.</div>
+				</div>
+			</div>
+			<div class="slider__list">
+					<div class="slide">
+						<div class="img" style="background: #26bfff;"></div>
+						<div class="title">Лучшая ткань</div>
+						<div class="text">Приятная на ощупь, без аллегргии. Не выцветает 
+	и не выстирывается 5 лет (если стирать каждую неделю).</div>
+					</div>
+					<div class="slide">
+						<div class="img" style="background: #26bfff;"></div>
+						<div class="title">Лучшая ткань 2</div>
+						<div class="text">Приятная на ощупь, без аллегргии. Не выцветает 
+	и не выстирывается 5 лет (если стирать каждую неделю) 2.</div>
+					</div>
+					<div class="slide">
+						<div class="img" style="background: #26bfff;"></div>
+						<div class="title">Лучшая ткань 3</div>
+						<div class="text">Приятная на ощупь, без аллегргии. Не выцветает 
+	и не выстирывается 5 лет (если стирать каждую неделю) 2.</div>
+					</div>
+					<div class="slide">
+							<div class="img" style="background: #26bfff;"></div>
+							<div class="title">Лучшая ткань 3</div>
+							<div class="text">Приятная на ощупь, без аллегргии. Не выцветает 
+		и не выстирывается 5 лет (если стирать каждую неделю) 2.</div>
+						</div>
+				</div>
+		</div>
+		<div class="reviews">
+			<div class="s_title">Отзывы</div>
+			<center style="padding: 0 15px;"><img src="img/VK.png" width="100%" height="auto" alt=""></center>
+		</div>
+
+		<div class="s_title">Смотрите так же</div>
+		<div class="items">
+			
+				<a href="#" class="item">
+					<div class="img"><img src="uploads/t-shirt.jpg"></div>
+					<div class="info">
+						<div>Star War Adventure</div>
+						космос, кошка
+					</div>
+					<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+				</a>
+				<a href="#" class="item">
+					<div class="img"><img src="uploads/t-shirt.jpg"></div>
+					<div class="info">
+						<div>Star War Adventure</div>
+						космос, кошка
+					</div>
+					<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+				</a>
+			
+			
+				<a href="#" class="item">
+					<div class="img"><img src="uploads/t-shirt.jpg"></div>
+					<div class="info">
+						<div>Star War Adventure</div>
+						космос, кошка
+					</div>
+					<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+				</a>
+				<a href="#" class="item">
+					<div class="img"><img src="uploads/t-shirt.jpg"></div>
+					<div class="info">
+						<div>Star War Adventure</div>
+						космос, кошка
+					</div>
+					<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+				</a>
+			
+			
+				<a href="#" class="item">
+					<div class="img"><img src="uploads/t-shirt.jpg"></div>
+					<div class="info">
+						<div>Star War Adventure</div>
+						космос, кошка
+					</div>
+					<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+				</a>
+				<a href="#" class="item">
+					<div class="img"><img src="uploads/t-shirt.jpg"></div>
+					<div class="info">
+						<div>Star War Adventure</div>
+						космос, кошка
+					</div>
+					<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+				</a>
+
+				<a href="#" class="item">
+						<div class="img"><img src="uploads/t-shirt.jpg"></div>
+						<div class="info">
+							<div>Star War Adventure</div>
+							космос, кошка
+						</div>
+						<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+					</a>
+					<a href="#" class="item">
+						<div class="img"><img src="uploads/t-shirt.jpg"></div>
+						<div class="info">
+							<div>Star War Adventure</div>
+							космос, кошка
+						</div>
+						<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+					</a>
+			
+		</div>
+		<bitton class="s_more">Показать еще</bitton>
+	</div>
+
+	<div class="footer">
+			<div class="navigation">
+				<div class="links clear">
+					<div class="p2">
+						<div class="m_title">О магазине</div>
+						<ul>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Качество</a></li>
+							<li><a href="#">Отзывы</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Документы</a></li>
+						</ul>
+					</div>
+					<div class="p2">
+						<div class="p2__item">
+							<div class="m_title">Личные данные</div>
+							<ul>
+								<li><a href="#">Профиль</a></li>
+								<li><a href="#">Мои заказы</a></li>
+								<li><a href="#">Войти</a></li>
+							</ul>
+						</div>
+						<div class="p2__item">
+							<div class="m_title">Художнику</div>
+							<ul>
+								<li><a href="#">Условия</a></li>
+								<li><a href="#">Личный кабинет</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="social">
+					<div class="m_title">Мы в социальных сетях</div>
+					<div class="social__list">
+						<a href="#" class="vk"></a>
+						<a href="#" class="fb"></a>
+						<a href="#" class="inst"></a>
+					</div>
+				</div>
+				<div class="dispatch">
+					<div class="title">Подписаться на рассылку</div>
+					<div class="text">Индивидуальная подборка для Вас, каждую<br>неделю по пятницам. Легко отписаться</div>
+					<form>
+						<input class="dispatch__text" type="text" placeholder="Ваш Е-mail">
+						<input class="dispatch__submit" type="submit" value="">
+					</form>
+				</div>
+				<div class="payment_methods">
+					<div class="m_title">Способы оплаты</div>
+					<div class="methods_line">
+						<div class="methods">
+							<div class="method"><img src="img/pay/q.png" alt=""></div>
+							<div class="method"><img src="img/pay/visa.png" alt=""></div>
+							<div class="method"><img src="img/pay/ya.png" alt=""></div>
+							<div class="method"><img src="img/pay/mc.png" alt=""></div>
+							<div class="method"><img src="img/pay/mf.png" alt=""></div>
+							<div class="method"><img src="img/pay/mts.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div id="bg"></div>
+
+	<div class="popup is theme_size" dv-popup="size">
+		<div class="actionbar">
+			По примерам
+			<div class="close" onclick="clP('size');">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="choose_own_size">
+				<div class="tabs clear">
+					<a href="#" class="is" dv-tag="0">
+						<div>165 см</div>
+						50 кг
+					</a>
+					<a href="#" dv-tag="1">
+						<div>170 см</div>
+						65 кг
+					</a>
+					<a href="#" dv-tag="2">
+						<div>173 см</div>
+						72 кг
+					</a>
+					<a href="#" dv-tag="3">
+						<div>176 см</div>
+						98 кг
+					</a>
+				</div>
+				<div class="windows">
+					<div class="windows_line">
+						<div class="window" dv-tag="0">
+							<div class="sizes">
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">XS</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">S</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">M</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+							</div>
+						</div>
+						<div class="window" dv-tag="1">
+							<div class="sizes">
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">S</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">M</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">L</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+							</div>
+						</div>
+						<div class="window" dv-tag="2">
+							<div class="sizes">
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">M</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">L</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">XL</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+							</div>
+						</div>
+						<div class="window" dv-tag="3">
+							<div class="sizes">
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">XL</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">2XL</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+								<div class="size">
+									<img src="img/sizes/m.png" align="">
+									<div class="title">3XL</div>
+									<a href="#" class="choose">Выбрать</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="table_sizes">
+				<div class="title">
+					Таблица<br>размеров
+				</div>
+				<div class="own_size_info">Числа в сантиметрах</div>
+				<div class="table">
+					<div class="table_line">
+						<div class="table_item">47</div>
+						<div class="table_item">49</div>
+						<div class="table_item">51</div>
+						<div class="table_item">53</div>
+						<div class="table_item">56</div>
+						<div class="table_item">57</div>
+						<div class="table_item">58</div>
+					</div>
+					<div class="table_line">
+						<div class="table_item">68</div>
+						<div class="table_item">68</div>
+						<div class="table_item">69</div>
+						<div class="table_item">71</div>
+						<div class="table_item">72</div>
+						<div class="table_item">73</div>
+						<div class="table_item">74</div>
+					</div>
+					<div class="table_line">
+						<div class="table_item">XS</div>
+						<div class="table_item">S</div>
+						<div class="table_item">M</div>
+						<div class="table_item">L</div>
+						<div class="table_item">XL</div>
+						<div class="table_item">XXL</div>
+						<div class="table_item">XXXL</div>
+					</div>
+				</div>
+				<div class="own_size_text">Если ваш размер что-то среднее из двух размеров, то советуем выбрать в пользу большего размера.</div>
+			</div>
+		</div>
+		<div class="bg" onclick="clP('size');"></div>
+	</div>
+
+	<script src="js/m_common.js"></script>
+	<script src="js/app.bundle.js"></script>
+</body>
+</html>
