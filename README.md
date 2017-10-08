@@ -14,4 +14,3 @@
 3. ```npm install gulpjs/gulp-cli -g```
 4. ```npm install```  
 5. ```gulp``` 
-# shopmob
