@@ -339,36 +339,8 @@
 								<a href="#" class="is" dv-tag="pays">Доставка и оплата</a>
             </div>
             <div class="windows">
-              <div class="window" dv-tag="carts">
-                  <div class="p_title">Корзина</div>
-              </div>
-              <div class="window " dv-tag="contacts">
-									<div class="p_title">Контактные данные</div>
-									<form class="contacts_data" method="POST">
-										<div class="l">
-											<input type="text" placeholder="Телефон">
-										</div>
-										<div class="l">
-											<input type="text" placeholder="E-mail">
-										</div>
-										<div class="l">
-											<input type="text" placeholder="Фамилия Имя Отчество">
-										</div>	
-								
-										<div class="promo clear">
-											<input type="text" class="n_d" placeholder="Промо-код">
-											<button class="active">Активировать</button>
-										</div>
-							
-										<input type="submit" class="des" value="Продолжить">
-										<div class="l l_rules">
-											<input type="checkbox" id="rules" name="">
-											<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
-										</div>
-									</form>
-							</div>
-							<div class="window is" dv-tag="pays">
-									<div class="p_title">Доставка и оплата</div>
+              <div class="window is" dv-tag="carts">
+									<div class="p_title">Корзина</div>
 									<form class="delivery" method="POST">
 										<div class="l">
 											<div class="i_title">Город</div>
@@ -386,6 +358,7 @@
 												<div class="reset"></div>
 											</div>
 										</div>
+		
 										<div class="l ">
 											<div class="l_title">Способы доставки</div>
 											<div class="buttons delivery_type_line">
@@ -403,7 +376,15 @@
 										<div class="l">
 											<input type="text" placeholder="Адрес доставки">
 										</div>
-										<div class="text">Произведем за 48 часов (21 июня).<br>Доставим за 1-2 дня (26 июня-26 июня).</div>
+										<div class="l">
+												<input type="text" class="user__data" placeholder="Имя">
+												<input type="text"  class="user__data" placeholder="Фамилия">
+												<input type="text"  class="user__data" placeholder="Отчество">
+											</div>
+										<div class="promo clear">
+												<input type="text" class="n_d" placeholder="Промо-код">
+												<button class="active">Активировать</button>
+											</div>
 										<div class="l">
 											<div class="l_title">Способ оплаты</div>
 											<div class="buttons b_pay">
@@ -428,11 +409,37 @@
 											<div>Итого: <span class="res-price">1298</span> <span class="rub">R</span></div>
 										</div>
 										<input type="submit" class="des" value="Оплатить заказ">
+										<!--<div class="l l_rules">
+											<input type="checkbox" id="rules" name="">
+											<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
+										</div>-->
+									</form>
+              </div>
+              <div class="window " dv-tag="contacts">
+									<div class="p_title">Контактные данные</div>
+									<form class="contacts_data" method="POST">
+										<div class="l">
+											<input type="text" placeholder="Телефон">
+										</div>
+										<div class="l">
+											<input type="text" placeholder="E-mail">
+										</div>
+										<div class="l">
+											<input type="text" placeholder="Фамилия Имя Отчество">
+										</div>	
+								
+									
+							
+										<input type="submit" class="des" value="Продолжить">
 										<div class="l l_rules">
 											<input type="checkbox" id="rules" name="">
 											<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
 										</div>
 									</form>
+							</div>
+							<div class="window hide" dv-tag="pays">
+									<div class="p_title">Доставка и оплата</div>
+									
               </div>
             </div>  
 				</div>	
