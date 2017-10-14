@@ -14,6 +14,20 @@
 </head>
 <body class="w v1">
 	<div class="header clear">
+		<div class="header__top">
+					<div class="container">
+						<div class="header__top-menu">
+							<ul class="top-menu">
+								<li class="top-menu__elem"><a class="top-menu__link" href="/">Качество</a></li>
+								<li class="top-menu__elem"><a class="top-menu__link" href="/">Оплата и доставка</a></li>
+								<li class="top-menu__elem"><a class="top-menu__link" href="/">Отзывы</a></li>
+							</ul>
+						</div>
+						<div class="header__top-adv">
+							<div class="adv">Место для объявленией о скидке или акции</div>
+						</div>
+					</div>
+				</div>
 		<div class="actionbar clear">
 			<div class="mainbar clear">
 				<a href="#" id="nav" class="is" dv-type="arr">
@@ -37,32 +51,425 @@
 				<a href="#" class="diss">Доставка и оплата</a>
 			</nav>
 		</div>
-	</div>
+		<div id="searching">
+				<form>
+					<input type="text" placeholder="Поиск">
+					<input type="submit" value="">
+				</form>
+			</div>
+			<!-- desktop -->
+			<div class="header__content">
+					<div class="container">
+						<div class="search header__content-elem">
+							<input class="search__input" type="text">
+							<div class="search__sign"></div>
+						</div>
+						<div class="logo header__content-elem">
+							<img class="logo__img" src="img/logo/m_logo.png">
+						</div>
+						<ul class="actions header__content-elem">
+							<li class="actions__elem"><a class="actions__link" href="/">
+									<div class="action__img action__img_person"></div><span class="action__caption">Войти</span></a></li>
+							<li class="actions__elem"><a class="actions__link" href="/">
+									<div class="action__img action__img_pack"></div><span class="action__caption">Отследить доставку   </span></a></li>
+							<li class="actions__elem"><a class="actions__link" href="/">
+									<div class="action__img action__img_bag">
+										<div class="action__count"><span class="action__count-value">2</span></div>
+									</div><span class="action__caption">Корзина</span></a></li>
+						</ul>
+					</div>
+			</div>
+			<!-- end desktop -->	
+			<div class="tabnavigation loading">
 
-	<div class="content">
-		<div class="p_title">Контактные данные</div>
-		<form class="contacts_data" method="POST">
-			<div class="l">
-				<input type="text" placeholder="Телефон">
-			</div>
-			<div class="l">
-				<input type="text" placeholder="E-mail">
-			</div>
-			<div class="l">
-				<input type="text" placeholder="Фамилия Имя Отчество">
-			</div>	
 	
-			<div class="promo clear">
-				<input type="text" class="n_d" placeholder="Промо-код">
-				<button class="active">Активировать</button>
+					<!-- header content -->
+				<div class="header__select">
+						<div class="container">
+							<div class="select">
+								<ul class="top-menu">
+									<li class="top-menu__elem"><a class="top-menu__link active" href="/">Мужчинам</a></li>
+									<li class="top-menu__elem"><a class="top-menu__link" href="/">Женщинам</a></li>
+									<li class="top-menu__elem"><a class="top-menu__link" href="/">Детям</a></li>
+									<li class="top-menu__elem"><a class="top-menu__link" href="/">Для дома</a></li>
+								</ul>
+							</div>
+						</div>
+				</div>
+				<div class="header__menu">
+				<div class="container">
+					<ul class="menu">
+						<li class="menu__elem menu__elem_sales"><a class="menu__link" href="/">Скидки</a>
+							<div class="menu__sales">50%</div>
+						</li>
+						<li class="menu__elem"><a class="menu__link" href="/">
+								<div class="menu__img">
+										<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+								</div>
+								<div class="menu__data">
+									<div class="menu__elem-title">Футболки</div>
+									<div class="menu__elem-val">1167
+										<div class="menu__elem-svg">
+											<svg>
+												<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+											</svg>
+										</div>
+									</div>
+								</div></a></li>
+						<li class="menu__elem"><a class="menu__link" href="/">
+								<div class="menu__img">
+										<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+								</div>
+								<div class="menu__data">
+									<div class="menu__elem-title">Майки</div>
+									<div class="menu__elem-val">1167
+										<div class="menu__elem-svg">
+											<svg>
+												<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+											</svg>
+										</div>
+									</div>
+								</div></a></li>
+						<li class="menu__elem"><a class="menu__link" href="/">
+								<div class="menu__img">
+										<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+								</div>
+								<div class="menu__data">
+									<div class="menu__elem-title">Лонгсливы</div>
+									<div class="menu__elem-val">1167
+										<div class="menu__elem-svg">
+											<svg>
+												<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+											</svg>
+										</div>
+									</div>
+								</div></a></li>
+						<li class="menu__elem"><a class="menu__link" href="/">
+								<div class="menu__img">
+										<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
+								</div>
+								<div class="menu__data">
+									<div class="menu__elem-title">Регланы</div>
+									<div class="menu__elem-val">1167
+										<div class="menu__elem-svg">
+											<svg>
+												<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+											</svg>
+										</div>
+									</div>
+								</div></a></li>
+						<li class="menu__elem menu__elem_more">
+							<a class="menu__link menu__link_submenu" href="/">Eще</a>
+							<div class="menu__title">
+								Все товары
+								<!--<ul class="innermenu menu__list">
+									<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
+									<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2  </a></li>
+								</ul> -->
+							</div>
+						</li>
+						<li class="menu__elem menu__elem_category">
+							<svg>
+								<use xlink:href="img/sprite/sprite.svg#list"></use>
+							</svg>
+							<a class="menu__link menu__link_submenu" href="/">Категории</a>
+							<div class="menu__title">
+								Все Категории
+								<!--<ul class="innermenu menu__list">
+									<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
+									<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+								</ul>-->
+							</div>
+						</li>
+					</ul>
+				</div>
+				</div>
+			<!-- header content end -->	
 			</div>
-
-			<input type="submit" class="des" value="Продолжить">
-			<div class="l l_rules">
-				<input type="checkbox" id="rules" name="">
-				<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
+	</div>
+	<div id="menu">
+			<div class="cart clear">
+				<div class="cart_icon"><div>2</div></div>
+				<div class="info">
+					<div>Корзина</div>
+					<span class="goods-count">2</span> товара на <span class="goods-price">1490</span> <span class="rub">R</span>
+				</div>
 			</div>
-		</form>
+			<div class="user_view">
+				<div class="info">
+					<img src="uploads/default.png" alt="">
+					<div class="name">Артем Ермолаев</div>
+					<div class="email">artemech@gmail.com</div>
+				</div>
+				<div class="control">
+					<ul>
+						<li><a href="#">Мои заказы</a></li>
+						<li><a href="#">Настроки профиля</a></li>
+						<li><a href="#">Выйти</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="menu_content">
+				<div class="tabs clear">
+					<a href="#" class="is" dv-tag="men">Мужчинам</a>
+					<a href="#" dv-tag="women">Женщинам</a>
+				</div>
+				<div class="windows">
+					<div class="window is" dv-tag="men">
+						<ul class="main">
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_4.png');"></div>Футболки</a></li>
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_5.png');"></div>Майки</a></li>
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_6.png');"></div>Лонгсливы</a></li>
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_7.png');"></div>Регланы</a></li>
+							<li class="sub">
+								<a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Еще</a>
+								<ul>
+									<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 5</a></li>
+									<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 6</a></li>
+									<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 7</a></li>
+									<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Подушки</a></li>
+									<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Шлепки</a></li>
+								</ul>
+							</li>
+							<li class="go">
+								<a href="#"><div class="ico" style="background-image: url('img/m_ico_9.png');"></div>Категории</a>
+	
+								<ul>
+									<li class="sub">
+										<a href="#">Животные</a>
+										<ul>
+											<li><a href="#">Животные 1</a></li>
+											<li><a href="#">Животные 2</a></li>
+											<li><a href="#">Животные 3</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Фильмы</a></li>
+									<li><a href="#">Гоблины</a></li>
+									<li class="sub">
+										<a href="#">Зомби</a>
+										<ul>
+											<li><a href="#">Зомби 1</a></li>
+											<li><a href="#">Зомби 2</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Животные</a></li>
+									<li class="sub">
+										<a href="#">Фильмы</a>
+										<ul>
+											<li><a href="#">Фильмы 1</a></li>
+											<li><a href="#">Фильмы 2</a></li>
+											<li><a href="#">Фильмы 3</a></li>
+											<li><a href="#">Фильмы 4</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Гоблины</a></li>
+									<li><a href="#">Зомби</a></li>
+									<li><a href="#">Животные</a></li>
+									<li><a href="#">Фильмы</a></li>
+									<li><a href="#">Гоблины</a></li>
+									<li><a href="#">Зомби</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_10.png');"></div>Войти / Регистрация</a></li>
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_11.png');"></div>Отследить доставку</a></li>
+						</ul>
+					</div>
+					<div class="window" dv-tag="women">
+						<ul class="main">
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_4.png');"></div>Футболки Ж</a></li>
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_5.png');"></div>Майки Ж</a></li>
+							<li class="sub">
+								<a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Еще</a>
+								<ul>
+									<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 5 Ж</a></li>
+									<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_8.png');"></div>Чехолы iPhone 6 Ж</a></li>
+								</ul>
+							</li>
+							<li class="go">
+								<a href="#"><div class="ico" style="background-image: url('img/m_ico_9.png');"></div>Категории Ж</a>
+	
+								<ul>
+									<li><a href="#">Фильмы Ж</a></li>
+									<li><a href="#">Гоблины Ж</a></li>
+									<li class="sub">
+										<a href="#">Зомби Ж</a>
+										<ul>
+											<li><a href="#">Зомби 1 Ж</a></li>
+											<li><a href="#">Зомби 2 Ж</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Гоблины Ж</a></li>
+									<li><a href="#">Зомби Ж</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_10.png');"></div>Войти / Регистрация</a></li>
+							<li><a href="#"><div class="ico" style="background-image: url('img/m_ico_11.png');"></div>Отследить доставку</a></li>
+						</ul>
+					</div>
+				</div>
+	
+				<div class="main_items">
+					<div class="box">
+						<div class="m_title">О магазине</div>
+						<ul>
+							<li><a href="#">Акции</a></li>
+							<li><a href="#">Доставка и оплата</a></li>
+							<li><a href="#">Качество</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">Контакты</a></li>
+							<li><a href="#">Документы</a></li>
+						</ul>
+					</div>
+					<div class="box">
+						<div class="m_title">Художнику</div>
+						<ul>
+							<li><a href="#">Условия</a></li>
+							<li><a href="#">Личный кабинет</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	
+	<div class="content delivery">
+			<div class="title main__title">Оформить заказ</div>
+		<div class="delivery contents">
+				
+				<div class="contents__elem">
+            <div class="tabs clear">
+                <a href="#" dv-tag="carts">Корзина</a>
+								<a href="#" dv-tag="contacts">Контактные данные</a>
+								<a href="#" class="is" dv-tag="pays">Доставка и оплата</a>
+            </div>
+            <div class="windows">
+              <div class="window is" dv-tag="carts">
+									<div class="p_title">Корзина</div>
+									<form class="delivery" method="POST">
+										<div class="l">
+											<div class="i_title">Город</div>
+											<div class="smart_input">
+												<div class="flags">
+													<div class="chosen"><img src="img/flags/ru.jpg" alt=""></div>
+													<div class="to_choose">
+														<div class="flag is" dv-data="ru"><img src="img/flags/ru.jpg" alt=""></div>
+														<div class="flag" dv-data="ua"><img src="img/flags/ua.jpg" alt=""></div>
+														<div class="flag" dv-data="en"><img src="img/flags/en.jpg" alt=""></div>
+														<div class="flag" dv-data="usa"><img src="img/flags/usa.jpg" alt=""></div>
+													</div>
+												</div>
+												<input type="text" value="Москва" placeholder="Город">
+												<div class="reset"></div>
+											</div>
+										</div>
+		
+										<div class="l ">
+											<div class="l_title">Способы доставки</div>
+											<div class="buttons delivery_type_line">
+												<div class="wrap">
+													<input type="radio" id="r_post" checked="" name="r_post">
+													<label for="r_post">
+														<div class="title">Почтой Росии<br>доставка по РФ</div>
+														<div class="price"><span class="price-val">299</span> <span class="rub">R</span></div>
+														<div class="info">4-12 дня</div>
+													</label>
+													<div class="empty"></div>
+												</div>
+											</div>
+										</div>
+										<div class="l">
+											<input type="text" placeholder="Адрес доставки">
+										</div>
+										<div class="l">
+												<input type="text" class="user__data" placeholder="Имя">
+												<input type="text"  class="user__data" placeholder="Фамилия">
+												<input type="text"  class="user__data" placeholder="Отчество">
+											</div>
+										<div class="promo clear">
+												<input type="text" class="n_d" placeholder="Промо-код">
+												<button class="active">Активировать</button>
+											</div>
+										<div class="l">
+											<div class="l_title">Способ оплаты</div>
+											<div class="buttons b_pay">
+												<div class="wrap">
+													<input type="radio" checked="" id="mcv" name="pay">
+													<label for="mcv">
+														Банковская карта
+													</label>
+													<input type="radio" id="em" name="pay">
+													<label for="em">
+														Электронные деньги
+													</label>
+													<input type="radio" id="t" name="pay">
+													<label for="t">
+														Терминал
+													</label>
+												</div>
+											</div>
+										</div>
+										<div class="result">
+											Товары: <span class="goods-price">990</span> <span class="rub">R</span> + Доставка: 308 <span class="rub">R</span>
+											<div>Итого: <span class="res-price">1298</span> <span class="rub">R</span></div>
+										</div>
+										<input type="submit" class="des" value="Оплатить заказ">
+										<!--<div class="l l_rules">
+											<input type="checkbox" id="rules" name="">
+											<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
+										</div>-->
+									</form>
+              </div>
+              <div class="window " dv-tag="contacts">
+									<div class="p_title">Контактные данные</div>
+									<form class="contacts_data" method="POST">
+										<div class="l">
+											<input type="text" placeholder="Телефон">
+										</div>
+										<div class="l">
+											<input type="text" placeholder="E-mail">
+										</div>
+										<div class="l">
+											<input type="text" placeholder="Фамилия Имя Отчество">
+										</div>	
+								
+										<div class="promo clear">
+											<input type="text" class="n_d" placeholder="Промо-код">
+											<button class="active">Активировать</button>
+										</div>
+							
+										<input type="submit" class="des" value="Продолжить">
+										<div class="l l_rules">
+											<input type="checkbox" id="rules" name="">
+											<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
+										</div>
+									</form>
+							</div>
+							<div class="window hide" dv-tag="pays">
+									<div class="p_title">Доставка и оплата</div>
+									
+              </div>
+            </div>  
+				</div>	
+				<div class="contents__elem">
+						<div class="contents__elem-title">Товары</div>
+					<div class="item">
+						<div class="ico"><img src="uploads/t-shirt.jpg" alt=""></div>
+						<div class="item__data">
+							<div class="name">Star War Adventure</div>
+							<div class="size">Размер <span>XL</span> </div>
+							<div class="quontity">Количество<span>1</span> </div>
+						</div>
+						<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+						<div class="delete"><a href="#" class="btn"></a></div>
+					</div>	
+			
+					<div class="end t_c">
+						<p>Есть вопросы? Звоните</p>
+						<div><a href="tel: 88003330768">8 (800) 333-07-68</a></div>
+						Ежедневно с 08:00 до 24:00
+					</div>
+				</div>
+		</div>					
 	</div>
 	<div class="footer">
 			<div class="navigation">
@@ -128,6 +535,7 @@
 				</div>
 			</div>
 		</div>
+			
 	<div id="bg"></div>
 
 	<script src="js/m_common.js"></script>

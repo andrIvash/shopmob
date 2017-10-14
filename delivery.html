@@ -46,6 +46,13 @@
 						<a href="#" class="hide des w">Посмотреть<br>товары</a>
 					</div>
 				</div>
+				<div class="history loading">
+						<nav class="clear">
+							<a href="#">Корзина</a>
+							<a href="#">Контактные данные</a>
+							<a href="#" class="diss">Доставка и оплата</a>
+						</nav>
+				</div>
 				<div id="searching">
 					<form>
 						<input type="text" placeholder="Поиск">
@@ -334,13 +341,13 @@
 				
 				<div class="contents__elem">
             <div class="tabs clear">
-                <a href="#" dv-tag="carts">Корзина</a>
+                <a href="#" class="is"  dv-tag="carts">Корзина</a>
 								<a href="#" dv-tag="contacts">Контактные данные</a>
-								<a href="#" class="is" dv-tag="pays">Доставка и оплата</a>
+								<a href="#"  class="dis" dv-tag="pays" >Доставка и оплата</a>
             </div>
             <div class="windows">
               <div class="window is" dv-tag="carts">
-									<div class="p_title">Корзина</div>
+									<div class="p_title">Доставка и оплата</div>
 									<form class="delivery" method="POST">
 										<div class="l">
 											<div class="i_title">Город</div>
@@ -438,7 +445,7 @@
 									</form>
 							</div>
 							<div class="window hide" dv-tag="pays">
-									<div class="p_title">Доставка и оплата</div>
+									<!--<div class="p_title">Доставка и оплата</div>-->
 									
               </div>
             </div>  
