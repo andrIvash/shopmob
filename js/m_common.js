@@ -362,6 +362,10 @@ function clP (el) {
 	$('.popup[dv-popup="'+el+'"]').removeClass('is');
 }
 
+function clPon (el) {
+	$('.popup[dv-popup="'+el+'"]').addClass('is');
+}
+
 $('.good_sizes .size').click(function(e){
 	$('.good_sizes .size').removeClass('is');
 	$(this).addClass('is');
