@@ -140,6 +140,12 @@ $('.content div:not(.choose_own_size) .tabs a').click(function(e){
 
 	var tag = $(this).attr('dv-tag');
 
+	if (tag == 'carts') {
+		$('.contents__elem_last').hide();
+	} else {
+		$('.contents__elem_last').show();
+	}
+
 	$(this).closest('.tabs').children('a').removeClass('is');
 	$(this).addClass('is');
 

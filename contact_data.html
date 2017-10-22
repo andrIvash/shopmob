@@ -12,9 +12,10 @@
 	<script src="js/jquery.min.js"></script>
 	<script src="js/slick.min.js"></script>
 </head>
-<body class="w v1">
-	<div class="header clear">
-		<div class="header__top">
+<body class="v1 w">
+		<div class="header clear">
+				<!-- desktop -->
+				<div class="header__top">
 					<div class="container">
 						<div class="header__top-menu">
 							<ul class="top-menu">
@@ -28,166 +29,175 @@
 						</div>
 					</div>
 				</div>
-		<div class="actionbar clear">
-			<div class="mainbar clear">
-				<a href="#" id="nav" class="is" dv-type="arr">
-					<div></div>
-					<div></div>
-					<div></div>
-				</a>
-				<div class="window_info">
-					<div>Оформление заказа</div>
-					2 товара на 2380 <span class="rub">R</span>
+				<!-- end desktop -->	
+				<div class="actionbar clear">
+					<div class="mainbar clear">
+						<a href="#" id="nav" class="is" dv-type="arr">
+							<div></div>
+							<div></div>
+							<div></div>
+						</a>
+						<div class="window_info">
+							<div>Оформление заказа</div>
+							2 товара на 2380 <span class="rub">R</span>
+						</div>
+					</div>
+					<div class="userbar clear">
+						<a href="#" class="hide des w">Посмотреть<br>товары</a>
+					</div>
 				</div>
-			</div>
-			<div class="userbar clear">
-				<a href="#" class="hide des w">Посмотреть<br>товары</a>
-			</div>
-		</div>
-		<div class="history loading">
-			<nav class="clear">
-				<a href="#">Корзина</a>
-				<a href="#">Контактные данные</a>
-				<a href="#" class="diss">Доставка и оплата</a>
-			</nav>
-		</div>
-		<div id="searching">
-				<form>
-					<input type="text" placeholder="Поиск">
-					<input type="submit" value="">
-				</form>
-			</div>
-			<!-- desktop -->
-			<div class="header__content">
+				<div class="history loading">
+						<nav class="clear">
+							<a href="#">Корзина</a>
+							<a href="#">Контактные данные</a>
+							<a href="#" class="diss">Доставка и оплата</a>
+						</nav>
+				</div>
+				<div id="searching">
+					<form>
+						<input type="text" placeholder="Поиск">
+						<input type="submit" value="">
+					</form>
+				</div>
+				<!-- desktop -->
+				<div class="header__content">
+						<div class="container">
+							<div class="search header__content-elem">
+								<input class="search__input" type="text">
+								<div class="search__sign"></div>
+							</div>
+							<div class="logo header__content-elem">
+								<img class="logo__img" src="img/logo/m_logo.png">
+							</div>
+							<ul class="actions header__content-elem">
+								<li class="actions__elem"><a class="actions__link" href="/">
+										<div class="action__img action__img_person"></div><span class="action__caption">Войти</span></a></li>
+								<li class="actions__elem"><a class="actions__link" href="/">
+										<div class="action__img action__img_pack"></div><span class="action__caption">Отследить доставку   </span></a></li>
+								<li class="actions__elem"><a class="actions__link" href="/">
+										<div class="action__img action__img_bag">
+											<div class="action__count"><span class="action__count-value">2</span></div>
+										</div><span class="action__caption">Корзина</span></a></li>
+							</ul>
+						</div>
+				</div>
+				<!-- end desktop -->	
+				<div class="tabnavigation loading">
+
+		
+						<!-- header content -->
+					<div class="header__select">
+							<div class="container">
+								<div class="select">
+									<ul class="top-menu">
+										<li class="top-menu__elem"><a class="top-menu__link active" data-type="m" href="/">Мужчинам</a></li>
+										<li class="top-menu__elem"><a class="top-menu__link" data-type="f" href="/">Женщинам</a></li>
+										<li class="top-menu__elem"><a class="top-menu__link" href="/">Детям</a></li>
+										<li class="top-menu__elem"><a class="top-menu__link" href="/">Для дома</a></li>
+									</ul>
+								</div>
+							</div>
+					</div>
+					<div class="header__menu">
 					<div class="container">
-						<div class="search header__content-elem">
-							<input class="search__input" type="text">
-							<div class="search__sign"></div>
-						</div>
-						<div class="logo header__content-elem">
-							<img class="logo__img" src="img/logo/m_logo.png">
-						</div>
-						<ul class="actions header__content-elem">
-							<li class="actions__elem"><a class="actions__link" href="/">
-									<div class="action__img action__img_person"></div><span class="action__caption">Войти</span></a></li>
-							<li class="actions__elem"><a class="actions__link" href="/">
-									<div class="action__img action__img_pack"></div><span class="action__caption">Отследить доставку   </span></a></li>
-							<li class="actions__elem"><a class="actions__link" href="/">
-									<div class="action__img action__img_bag">
-										<div class="action__count"><span class="action__count-value">2</span></div>
-									</div><span class="action__caption">Корзина</span></a></li>
+						<ul class="menu">
+							<li class="menu__elem menu__elem_sales"><a class="menu__link" href="/">Скидки</a>
+								<div class="menu__sales">50%</div>
+							</li>
+							<li class="menu__elem"><a class="menu__link" href="/">
+									<div class="menu__img menu__img-tshirt tshirt-m">
+											<!-- <img class="menu__img-item" src="img/tshirt-m.png" title="icon"/>-->
+									</div>
+									<div class="menu__data">
+										<div class="menu__elem-title">Футболки</div>
+										<div class="menu__elem-val">1167
+											<div class="menu__elem-svg">
+												<svg>
+													<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+												</svg>
+											</div>
+										</div>
+									</div></a></li>
+							<li class="menu__elem"><a class="menu__link" href="/">
+									<div class="menu__img menu__img-shirt shirt-m">
+											<!--<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/> -->
+									</div>
+									<div class="menu__data">
+										<div class="menu__elem-title">Майки</div>
+										<div class="menu__elem-val">1167
+											<div class="menu__elem-svg">
+												<svg>
+													<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+												</svg>
+											</div>
+										</div>
+									</div></a></li>
+							<li class="menu__elem"><a class="menu__link" href="/">
+									<div class="menu__img menu__img-longsleeve longsleeve-m">
+											<!--<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/> -->
+									</div>
+									<div class="menu__data">
+										<div class="menu__elem-title">Лонгсливы</div>
+										<div class="menu__elem-val">1167
+											<div class="menu__elem-svg">
+												<svg>
+													<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+												</svg>
+											</div>
+										</div>
+									</div></a></li>
+							<li class="menu__elem"><a class="menu__link" href="/">
+									<div class="menu__img menu__img-reglan reglan-m">
+										<!--	<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/> -->
+									</div>
+									<div class="menu__data">
+										<div class="menu__elem-title">Регланы</div>
+										<div class="menu__elem-val">1167
+											<div class="menu__elem-svg">
+												<svg>
+													<use xlink:href="img/sprite/sprite.svg#ruble"></use>
+												</svg>
+											</div>
+										</div>
+									</div></a></li>
+							<li class="menu__elem menu__elem_more">
+								<a class="menu__link menu__link_submenu" href="/">Eще</a>
+								<div class="menu__title">
+									Все товары
+									<ul class="innermenu menu__list">
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2  </a></li>
+									</ul>
+								</div>
+							</li>
+							<li class="menu__elem menu__elem_category">
+								<svg>
+									<use xlink:href="img/sprite/sprite.svg#list"></use>
+								</svg>
+								<a class="menu__link menu__link_submenu" href="/">Категории</a>
+								<div class="menu__title">
+									Все Категории
+									<ul class="innermenu menu__list">
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+										<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
+									</ul>
+								</div>
+							</li>
 						</ul>
 					</div>
-			</div>
-			<!-- end desktop -->	
-			<div class="tabnavigation loading">
-
-	
-					<!-- header content -->
-				<div class="header__select">
-						<div class="container">
-							<div class="select">
-								<ul class="top-menu">
-									<li class="top-menu__elem"><a class="top-menu__link active" href="/">Мужчинам</a></li>
-									<li class="top-menu__elem"><a class="top-menu__link" href="/">Женщинам</a></li>
-									<li class="top-menu__elem"><a class="top-menu__link" href="/">Детям</a></li>
-									<li class="top-menu__elem"><a class="top-menu__link" href="/">Для дома</a></li>
-								</ul>
-							</div>
-						</div>
+					</div>
+				<!-- header content end -->	
 				</div>
-				<div class="header__menu">
-				<div class="container">
-					<ul class="menu">
-						<li class="menu__elem menu__elem_sales"><a class="menu__link" href="/">Скидки</a>
-							<div class="menu__sales">50%</div>
-						</li>
-						<li class="menu__elem"><a class="menu__link" href="/">
-								<div class="menu__img">
-										<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
-								</div>
-								<div class="menu__data">
-									<div class="menu__elem-title">Футболки</div>
-									<div class="menu__elem-val">1167
-										<div class="menu__elem-svg">
-											<svg>
-												<use xlink:href="img/sprite/sprite.svg#ruble"></use>
-											</svg>
-										</div>
-									</div>
-								</div></a></li>
-						<li class="menu__elem"><a class="menu__link" href="/">
-								<div class="menu__img">
-										<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
-								</div>
-								<div class="menu__data">
-									<div class="menu__elem-title">Майки</div>
-									<div class="menu__elem-val">1167
-										<div class="menu__elem-svg">
-											<svg>
-												<use xlink:href="img/sprite/sprite.svg#ruble"></use>
-											</svg>
-										</div>
-									</div>
-								</div></a></li>
-						<li class="menu__elem"><a class="menu__link" href="/">
-								<div class="menu__img">
-										<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
-								</div>
-								<div class="menu__data">
-									<div class="menu__elem-title">Лонгсливы</div>
-									<div class="menu__elem-val">1167
-										<div class="menu__elem-svg">
-											<svg>
-												<use xlink:href="img/sprite/sprite.svg#ruble"></use>
-											</svg>
-										</div>
-									</div>
-								</div></a></li>
-						<li class="menu__elem"><a class="menu__link" href="/">
-								<div class="menu__img">
-										<img class="menu__img-item" src="img/m_ico_4.png" title="icon"/>
-								</div>
-								<div class="menu__data">
-									<div class="menu__elem-title">Регланы</div>
-									<div class="menu__elem-val">1167
-										<div class="menu__elem-svg">
-											<svg>
-												<use xlink:href="img/sprite/sprite.svg#ruble"></use>
-											</svg>
-										</div>
-									</div>
-								</div></a></li>
-						<li class="menu__elem menu__elem_more">
-							<a class="menu__link menu__link_submenu" href="/">Eще</a>
-							<div class="menu__title">
-								Все товары
-								<!--<ul class="innermenu menu__list">
-									<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
-									<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2  </a></li>
-								</ul> -->
-							</div>
-						</li>
-						<li class="menu__elem menu__elem_category">
-							<svg>
-								<use xlink:href="img/sprite/sprite.svg#list"></use>
-							</svg>
-							<a class="menu__link menu__link_submenu" href="/">Категории</a>
-							<div class="menu__title">
-								Все Категории
-								<!--<ul class="innermenu menu__list">
-									<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 1</a></li>
-									<li class="innermenu__item"><a class="innermenu__link" href="/">Товар 2       </a></li>
-								</ul>-->
-							</div>
-						</li>
-					</ul>
-				</div>
-				</div>
-			<!-- header content end -->	
-			</div>
-	</div>
-	<div id="menu">
+		
+		</div>
+		
+		<div id="menu">
 			<div class="cart clear">
 				<div class="cart_icon"><div>2</div></div>
 				<div class="info">
@@ -330,96 +340,91 @@
 				</div>
 			</div>
 		</div>
-	
-	
+
 	<div class="content delivery">
 			<div class="title main__title">Оформить заказ</div>
 		<div class="delivery contents">
 				
 				<div class="contents__elem">
             <div class="tabs clear">
-                <a href="#" class="is" dv-tag="carts">Корзина</a>
-								<a href="#" dv-tag="contacts">Контактные данные</a>
-								<a href="#"  class="dis" dv-tag="pays">Доставка и оплата</a>
+                <a href="#"   dv-tag="carts">Корзина</a>
+								<a href="#" class="is" dv-tag="contacts">Контактные данные</a>
+								<a href="#"  class="dis" dv-tag="pays" >Доставка и оплата</a>
             </div>
             <div class="windows">
-              <div class="window is" dv-tag="carts">
-									<div class="p_title">Доставка и оплата</div>
-									<form class="delivery" method="POST">
-										<div class="l">
-											<div class="i_title">Город</div>
-											<div class="smart_input">
-												<div class="flags">
-													<div class="chosen"><img src="img/flags/ru.jpg" alt=""></div>
-													<div class="to_choose">
-														<div class="flag is" dv-data="ru"><img src="img/flags/ru.jpg" alt=""></div>
-														<div class="flag" dv-data="ua"><img src="img/flags/ua.jpg" alt=""></div>
-														<div class="flag" dv-data="en"><img src="img/flags/en.jpg" alt=""></div>
-														<div class="flag" dv-data="usa"><img src="img/flags/usa.jpg" alt=""></div>
-													</div>
-												</div>
-												<input type="text" value="Москва" placeholder="Город">
-												<div class="reset"></div>
-											</div>
-										</div>
-		
-										<div class="l ">
-											<div class="l_title">Способы доставки</div>
-											<div class="buttons delivery_type_line">
-												<div class="wrap">
-													<input type="radio" id="r_post" checked="" name="r_post">
-													<label for="r_post">
-														<div class="title">Почтой Росии<br>доставка по РФ</div>
-														<div class="price"><span class="price-val">299</span> <span class="rub">R</span></div>
-														<div class="info">4-12 дня</div>
-													</label>
-													<div class="empty"></div>
+              <div class="window " dv-tag="carts">
+								<div class="cart_wrap">
+									<div class="item">
+										<div class="description">
+											<div class="img"><img src="uploads/t-shirt.jpg" alt=""></div>
+											<div class="main">
+												<div class="name">Star War Adventure</div>
+												<div class="size" dv-sizes="S,M,L,XL / 52,XL,XXL" dv-def="3">
+													<button dv-type="s"></button>
+													<div class="choosed"></div>
+													<button dv-type="b"></button>
 												</div>
 											</div>
 										</div>
-										<div class="l">
-											<input type="text" placeholder="Адрес доставки">
+										<div class="info">
+											<div class="c">
+												<div class="title">Стоимость</div>
+												<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+											</div>
+											<div class="c t_c">
+												<div class="title">Колличество</div>
+												<div class="amount" dv-amount dv-def="2" dv-max="6">
+													<button dv-type="s"></button>
+													<div class="choosed"></div>
+													<button dv-type="b"></button>
+												</div>
+											</div>
+											<div class="c t_r">
+												<div class="title">Итого</div>
+												<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+											</div>
+											<div class="c">
+												<a href="#" class="delete"></a>
+											</div>
 										</div>
-										<div class="l">
-												<input type="text" class="user__data" placeholder="Имя">
-												<input type="text"  class="user__data" placeholder="Фамилия">
-												<input type="text"  class="user__data" placeholder="Отчество">
-											</div>
-										<div class="promo clear">
-												<input type="text" class="n_d" placeholder="Промо-код">
-												<button class="active">Активировать</button>
-											</div>
-										<div class="l">
-											<div class="l_title">Способ оплаты</div>
-											<div class="buttons b_pay">
-												<div class="wrap">
-													<input type="radio" checked="" id="mcv" name="pay">
-													<label for="mcv">
-														Банковская карта
-													</label>
-													<input type="radio" id="em" name="pay">
-													<label for="em">
-														Электронные деньги
-													</label>
-													<input type="radio" id="t" name="pay">
-													<label for="t">
-														Терминал
-													</label>
+									</div>
+									<div class="item">
+										<div class="description">
+											<div class="img"><img src="uploads/t-shirt.jpg" alt=""></div>
+											<div class="main">
+												<div class="name">Star War Adventure</div>
+												<div class="size" dv-sizes="S,M,L,XL / 52,XL,XXL" dv-def="3">
+													<button dv-type="s"></button>
+													<div class="choosed"></div>
+													<button dv-type="b"></button>
 												</div>
 											</div>
 										</div>
-										<div class="result">
-											Товары: <span class="goods-price">990</span> <span class="rub">R</span> + Доставка: 308 <span class="rub">R</span>
-											<div>Итого: <span class="res-price">1298</span> <span class="rub">R</span></div>
+										<div class="info">
+											<div class="c">
+												<div class="title">Стоимость</div>
+												<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+											</div>
+											<div class="c t_c">
+												<div class="title">Колличество</div>
+												<div class="amount" dv-amount dv-def="1" dv-max="3">
+													<button dv-type="s"></button>
+													<div class="choosed"></div>
+													<button dv-type="b"></button>
+												</div>
+											</div>
+											<div class="c t_r">
+												<div class="title">Итого</div>
+												<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
+											</div>
+											<div class="c">
+												<a href="#" class="delete"></a>
+											</div>
 										</div>
-										<input type="submit" class="des" value="Оплатить заказ">
-										<!--<div class="l l_rules">
-											<input type="checkbox" id="rules" name="">
-											<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
-										</div>-->
-									</form>
+									</div>
+								</div>	
               </div>
-              <div class="window " dv-tag="contacts">
+              <div class="window is" dv-tag="contacts">
 									<div class="p_title">Контактные данные</div>
 									<form class="contacts_data" method="POST">
 										<div class="l">
@@ -432,10 +437,7 @@
 											<input type="text" placeholder="Фамилия Имя Отчество">
 										</div>	
 								
-										<div class="promo clear">
-											<input type="text" class="n_d" placeholder="Промо-код">
-											<button class="active">Активировать</button>
-										</div>
+									
 							
 										<input type="submit" class="des" value="Продолжить">
 										<div class="l l_rules">
@@ -445,25 +447,98 @@
 									</form>
 							</div>
 							<div class="window hide" dv-tag="pays">
-
+								<div class="p_title">Доставка и оплата</div>
+								<form class="delivery" method="POST">
+									<div class="l">
+										<div class="i_title">Город</div>
+										<div class="smart_input">
+											<div class="flags">
+												<div class="chosen"><img src="img/flags/ru.jpg" alt=""></div>
+												<div class="to_choose">
+													<div class="flag is" dv-data="ru"><img src="img/flags/ru.jpg" alt=""></div>
+													<div class="flag" dv-data="ua"><img src="img/flags/ua.jpg" alt=""></div>
+													<div class="flag" dv-data="en"><img src="img/flags/en.jpg" alt=""></div>
+													<div class="flag" dv-data="usa"><img src="img/flags/usa.jpg" alt=""></div>
+												</div>
+											</div>
+											<input type="text" value="Москва" placeholder="Город">
+											<div class="reset"></div>
+										</div>
+									</div>
+	
+									<div class="l ">
+										<div class="l_title">Способы доставки</div>
+										<div class="buttons delivery_type_line">
+											<div class="wrap">
+												<input type="radio" id="r_post" checked="" name="r_post">
+												<label for="r_post">
+													<div class="title">Почтой Росии<br>доставка по РФ</div>
+													<div class="price"><span class="price-val">299</span> <span class="rub">R</span></div>
+													<div class="info">4-12 дня</div>
+												</label>
+												<div class="empty"></div>
+											</div>
+										</div>
+									</div>
+									<div class="l">
+										<input type="text" placeholder="Адрес доставки">
+									</div>
+									<div class="l">
+											<input type="text" class="user__data" placeholder="Имя">
+											<input type="text"  class="user__data" placeholder="Фамилия">
+											<input type="text"  class="user__data" placeholder="Отчество">
+										</div>
+									<div class="promo clear">
+											<input type="text" class="n_d" placeholder="Промо-код">
+											<button class="active">Активировать</button>
+										</div>
+									<div class="l">
+										<div class="l_title">Способ оплаты</div>
+										<div class="buttons b_pay">
+											<div class="wrap">
+												<input type="radio" checked="" id="mcv" name="pay">
+												<label for="mcv">
+													Банковская карта
+												</label>
+												<input type="radio" id="em" name="pay">
+												<label for="em">
+													Электронные деньги
+												</label>
+												<input type="radio" id="t" name="pay">
+												<label for="t">
+													Терминал
+												</label>
+											</div>
+										</div>
+									</div>
+									<div class="result">
+										Товары: <span class="goods-price">990</span> <span class="rub">R</span> + Доставка: 308 <span class="rub">R</span>
+										<div>Итого: <span class="res-price">1298</span> <span class="rub">R</span></div>
+									</div>
+									<input type="submit" class="des" value="Оплатить заказ">
+									<!--<div class="l l_rules">
+										<input type="checkbox" id="rules" name="">
+										<label for="rules">Заполняя форму вы соглашаетесь с обработкой персональных данных согласно <a href="#">договора подряда</a></label>
+									</div>-->
+								</form>
 									
               </div>
             </div>  
 				</div>	
-				<div class="contents__elem">
+				<div class="contents__elem contents__elem_last">
 						<div class="contents__elem-title">Товары</div>
-					<div class="item">
+					<div class="item item_self">
 						<div class="ico"><img src="uploads/t-shirt.jpg" alt=""></div>
 						<div class="item__data">
 							<div class="name">Star War Adventure</div>
 							<div class="size">Размер <span>XL</span> </div>
 							<div class="quontity">Количество<span>1</span> </div>
 						</div>
-						<div class="price"><span class="price-val">1190</span> <span class="rub">R</span></div>
-						<div class="delete"><a href="#" class="btn"></a></div>
+						<div class="price price_self"><span class="price-val">1190</span> <span class="rub">R</span></div>
+						<div class="delete delete_self"><a href="#" class="btn"></a></div>
 					</div>	
 			
-					<div class="end t_c">
+					<div class="end end_self t_c">
 						<p>Есть вопросы? Звоните</p>
 						<div><a href="tel: 88003330768">8 (800) 333-07-68</a></div>
 						Ежедневно с 08:00 до 24:00
@@ -471,71 +546,72 @@
 				</div>
 		</div>					
 	</div>
+
 	<div class="footer">
-			<div class="navigation">
-				<div class="links clear">
-					<div class="p2">
-						<div class="m_title">О магазине</div>
+		<div class="navigation">
+			<div class="links clear">
+				<div class="p2">
+					<div class="m_title">О магазине</div>
+					<ul>
+						<li><a href="#">Акции</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Качество</a></li>
+						<li><a href="#">Отзывы</a></li>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Документы</a></li>
+					</ul>
+				</div>
+				<div class="p2">
+					<div class="p2__item">
+						<div class="m_title">Личные данные</div>
 						<ul>
-							<li><a href="#">Акции</a></li>
-							<li><a href="#">Доставка и оплата</a></li>
-							<li><a href="#">Качество</a></li>
-							<li><a href="#">Отзывы</a></li>
-							<li><a href="#">FAQ</a></li>
-							<li><a href="#">Контакты</a></li>
-							<li><a href="#">Документы</a></li>
+							<li><a href="#">Профиль</a></li>
+							<li><a href="#">Мои заказы</a></li>
+							<li><a href="#">Войти</a></li>
 						</ul>
 					</div>
-					<div class="p2">
-						<div class="p2__item">
-							<div class="m_title">Личные данные</div>
-							<ul>
-								<li><a href="#">Профиль</a></li>
-								<li><a href="#">Мои заказы</a></li>
-								<li><a href="#">Войти</a></li>
-							</ul>
-						</div>
-						<div class="p2__item">
-							<div class="m_title">Художнику</div>
-							<ul>
-								<li><a href="#">Условия</a></li>
-								<li><a href="#">Личный кабинет</a></li>
-							</ul>
-						</div>
+					<div class="p2__item">
+						<div class="m_title">Художнику</div>
+						<ul>
+							<li><a href="#">Условия</a></li>
+							<li><a href="#">Личный кабинет</a></li>
+						</ul>
 					</div>
 				</div>
-				<div class="social">
-					<div class="m_title">Мы в социальных сетях</div>
-					<div class="social__list">
-						<a href="#" class="vk"></a>
-						<a href="#" class="fb"></a>
-						<a href="#" class="inst"></a>
-					</div>
+			</div>
+			<div class="social">
+				<div class="m_title">Мы в социальных сетях</div>
+				<div class="social__list">
+					<a href="#" class="vk"></a>
+					<a href="#" class="fb"></a>
+					<a href="#" class="inst"></a>
 				</div>
-				<div class="dispatch">
-					<div class="title">Подписаться на рассылку</div>
-					<div class="text">Индивидуальная подборка для Вас, каждую<br>неделю по пятницам. Легко отписаться</div>
-					<form>
-						<input class="dispatch__text" type="text" placeholder="Ваш Е-mail">
-						<input class="dispatch__submit" type="submit" value="">
-					</form>
-				</div>
-				<div class="payment_methods">
-					<div class="m_title">Способы оплаты</div>
-					<div class="methods_line">
-						<div class="methods">
-							<div class="method"><img src="img/pay/q.png" alt=""></div>
-							<div class="method"><img src="img/pay/visa.png" alt=""></div>
-							<div class="method"><img src="img/pay/ya.png" alt=""></div>
-							<div class="method"><img src="img/pay/mc.png" alt=""></div>
-							<div class="method"><img src="img/pay/mf.png" alt=""></div>
-							<div class="method"><img src="img/pay/mts.png" alt=""></div>
-						</div>
+			</div>
+			<div class="dispatch">
+				<div class="title">Подписаться на рассылку</div>
+				<div class="text">Индивидуальная подборка для Вас, каждую неделю по пятницам. Легко отписаться</div>
+				<form>
+					<input class="dispatch__text" type="text" placeholder="Ваш Е-mail">
+					<input class="dispatch__submit" type="submit" value="">
+				</form>
+			</div>
+			<div class="payment_methods">
+				<div class="m_title">Способы оплаты</div>
+				<div class="methods_line">
+					<div class="methods">
+						<div class="method"><img src="img/pay/q.png" alt=""></div>
+						<div class="method"><img src="img/pay/visa.png" alt=""></div>
+						<div class="method"><img src="img/pay/ya.png" alt=""></div>
+						<div class="method"><img src="img/pay/mc.png" alt=""></div>
+						<div class="method"><img src="img/pay/mf.png" alt=""></div>
+						<div class="method"><img src="img/pay/mts.png" alt=""></div>
 					</div>
 				</div>
 			</div>
 		</div>
-			
+	</div>
+
 	<div id="bg"></div>
 
 	<script src="js/m_common.js"></script>
